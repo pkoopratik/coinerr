@@ -12,6 +12,7 @@ function App() {
   const[search,setSearch]=useState('');
 
   useEffect(()=>{
+   document.title = "coinerr"
 
     axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&order=market_cap_desc&per_page=25&page=1&sparkline=false')
     .then(res=>{
@@ -31,7 +32,7 @@ const filteredCoins = coins.filter(coin =>coin.name.toLowerCase().includes(searc
   return (
     
     <div className="coin-app">
-      <p className='head'>$ coinerr</p>
+      <p className='head'>coinerr</p>
      <div className='coin-search'>
 
        <h1 className="coin-text">Search Currency</h1>
