@@ -31,7 +31,7 @@ const filteredCoins = coins.filter(coin =>coin.name.toLowerCase().includes(searc
   return (
     
     <div className="coin-app">
-      <p className='head'>coinerr</p>
+      <p className='head'>$ coinerr</p>
      <div className='coin-search'>
 
        <h1 className="coin-text">Search Currency</h1>
