@@ -1,3 +1,10 @@
+
+coinerr -A reactJS app which shows the live pricings of top crypto curruncies namely Bitcoin ,Etherium,Bit Torrent
+API used-coingecko
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
